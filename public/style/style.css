@@ -1,0 +1,54 @@
+.menu {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(63,1,78);
+    text-align: center;
+    margin-bottom: 0%;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.titleMenu{
+    font-size: 45pt;
+    color: #fefbff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 100px; /* Igual à altura do .menu */
+}
+
+.rifas {
+    background-image: linear-gradient(to right, rgb(19, 18, 18), rgb(41, 5, 56));
+    padding: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 25px;
+    font-family: Arial, sans-serif;
+    /* Escolha uma fonte que você deseja usar. */
+    font-size: 40px;
+    /* Escolha o tamanho da fonte desejado. */
+    color: transparent;
+    /* Torna o texto transparente. */
+    text-align: center;
+    /* Centraliza o texto no elemento pai. */
+    background-image: linear-gradient(45deg, #0e1111, #ff00f7, #00ffea);
+    /* Crie um gradiente holográfico. */
+    background-clip: text;
+    /* Aplique o gradiente apenas ao texto. */
+    -webkit-background-clip: text;
+    /* Necessário para alguns navegadores. */
+    filter: drop-shadow(0 0 5px rgba(182, 6, 176, 0.8));
+    /* Adicione uma sombra ao texto. */
+}
+
+.uk-card-body, .uk-card {
+    background-color: #353636;
+    color: white;
+    border: 0.8px solid rgb(80, 41, 62);
+}
+
+.uk-card-body:hover {
+    background-color: rgb(104, 2, 70);
+}
